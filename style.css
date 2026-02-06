@@ -64,8 +64,8 @@ nav, ul, li, a:hover {
     width: 1000px;
     margin-left: 200px;
     height: 400px;
-    margin-bottom: 120px;
-    margin-top: 90px;
+    margin-bottom: 160px;
+    margin-top: 160px;
 }
 
 #paragrafo-introducao h2 {
@@ -76,7 +76,8 @@ nav, ul, li, a:hover {
 
 #paragrafo-introducao p {
     font-size: 20px;
-    max-width: 400px;
+    max-width: 600px;
+    text-align: justify;
 }
 
 #paragrafo-introducao img {
@@ -108,6 +109,7 @@ nav, ul, li, a:hover {
 .minhas-especialidades p {
     font-size: 16px;
     max-width: 340px;
+    text-align: justify;
 }
 
 .minhas-especialidades h4 {
@@ -121,7 +123,6 @@ nav, ul, li, a:hover {
     position: relative;
     left: 70px;
     max-width: 1000px;
-    border: 2px solid crimson;
     height: 580px;
     margin-left: 150px;
 }
@@ -144,10 +145,14 @@ nav, ul, li, a:hover {
 }
 
 .sobre-mim p {
-    text-align: left;
-    justify-content: center;
+    text-align: justify;
     max-width: 610px;
     position: absolute;
     right: 0px;
     top: 200px;
+}
+
+.btn-social button{
+    position: absolute;
+    bottom: 0px;
 }
