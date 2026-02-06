@@ -18,21 +18,21 @@ header {
     margin-bottom: 60px;
 }
 
-nav, ul {
+nav ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-nav, ul, li {
+nav ul li {
      padding: 0 20px;
      margin-left: 20px;
      margin-right: 20px;
 }
 
-nav, ul, li, a {
+nav ul li a {
     text-decoration: none;
-    font-size: 29px;
+    font-size: 26px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     transition: background-color 0.3s ease-in-out;
@@ -59,20 +59,95 @@ nav, ul, li, a:hover {
 }
 
 #paragrafo-introducao {
-    display: flex;
-    width: 600px;
-    align-items: center;
+    position: relative;
+    left: 90px;
+    width: 1000px;
+    margin-left: 200px;
+    height: 400px;
+    margin-bottom: 120px;
+    margin-top: 90px;
 }
 
-#paragrafo-introducao, p {
-    font-size: 12px;
-    justify-content: center;
-    align-items: left;
+#paragrafo-introducao h2 {
+    font-size: 36px;
+    font-weight: bold;
+    max-width: 560px;
 }
 
-#paragrafo-introducao, h2 {
-    font-size: 28px;
+#paragrafo-introducao p {
+    font-size: 20px;
+    max-width: 400px;
+}
+
+#paragrafo-introducao img {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    width: 380px;
+}
+
+#titulo-especialidade {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.destaque-titulo {
+    color: rgb(30, 255, 0);;
+}
+
+.minhas-especialidades {
+    margin-bottom: 220px;
+    max-width: 260px;
+    height: 300px;
+    float: left;
+    padding: 20px;
+}
+
+.minhas-especialidades p {
+    font-size: 16px;
+    max-width: 340px;
+}
+
+.minhas-especialidades h4 {
+    font-size: 20px;
     font-weight: bold;
     align-items: center;
 }
 
+.sobre-mim {
+    clear: both;
+    position: relative;
+    left: 70px;
+    max-width: 1000px;
+    border: 2px solid crimson;
+    height: 580px;
+    margin-left: 150px;
+}
+
+.sobre-mim h4 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    right: 10px;
+}
+
+.sobre-mim img {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    bottom: 95px;
+    width: 380px;
+    padding-right: 40px;
+}
+
+.sobre-mim p {
+    text-align: left;
+    justify-content: center;
+    max-width: 610px;
+    position: absolute;
+    right: 0px;
+    top: 200px;
+}
